@@ -1,0 +1,819 @@
+1 Weekly Exercise: Show Me Your Process
+What You Submit: Just Steps 1, 2, and 3 for two problems. NO CODE.
+
+This week is about proving you can THINK about a problem before jumping to AI or code.
+
+1.1 Problem 1: Tip Calculator
+1.1.1 The Scenario
+You work at a Perth restaurant. The manager wants a simple tool where staff can enter: - The bill amount (e.g., $45.80) - The tip percentage (e.g., 15%)
+
+And get back: - The tip amount - The total amount to charge
+
+1.1.2 What You Must Submit
+STEP 1: Understand the Problem
+
+In your own words, what is this program supposed to do? (2-3 sentences)
+
+[Your answer here]
+
+STEP 2: Identify Inputs and Outputs
+
+INPUTS: - [What does the user provide?] - [What type of data? Numbers? Text?]
+
+OUTPUTS: - [What does the program show back?] - [What format?]
+
+STEP 3: Work It By Hand
+
+Show me you can do this with a calculator. Use this example: - Bill amount: $45.80 - Tip percentage: 15%
+
+Write the steps: 1. [First calculation I would do] 2. [Second calculation] 3. [Final step] 4. [What I would tell the staff member]
+
+1.2 Problem 2: Late Fee Calculator
+1.2.1 The Scenario
+You work for a library in Perth. Books are due back in 14 days. For every day late, there’s a $0.50 fine (maximum $10.00).
+
+The librarian wants a program where they enter: - How many days the book is overdue
+
+And get back: - The fine amount (or “Maximum fine reached” if it’s over $10)
+
+1.2.2 What You Must Submit
+STEP 1: Understand the Problem
+
+In your own words, what is this program supposed to do? (2-3 sentences)
+
+[Your answer here]
+
+STEP 2: Identify Inputs and Outputs
+
+INPUTS: - [What information does the librarian provide?]
+
+OUTPUTS: - [What does the program calculate and show?] - [Any special cases?]
+
+STEP 3: Work It By Hand
+
+Show me you understand the logic. Calculate these three cases manually:
+
+Case A: Book is 5 days late - My calculation: [Show your work] - Fine: [Answer]
+
+Case B: Book is 25 days late - My calculation: [Show your work] - Fine: [Answer] - Special note: [Why is this different?]
+
+Case C: Book is 0 days late - Fine: [Answer]
+
+1.3 Submission Requirements
+Create a Google Colab notebook
+Use markdown cells to answer all the questions above
+Export your AI conversation (if you used AI to check your thinking)
+Save as AI_conversation.txt
+Add to your GitHub repo
+Save to GitHub with commit message: “Week 10 - Process documentation”
+NO CODE REQUIRED
+
+1.3.1 About Using AI
+You SHOULD use AI to: - Check if your manual calculations are correct - Verify your understanding of the problem - Ask “did I identify all the inputs?”
+
+But your submitted answers must be in YOUR words, showing YOUR thinking.
+
+1.4 Marking
+Each problem is marked Complete/Incomplete:
+
+Complete: All three steps answered with genuine effort + AI conversation file in repo (if used)
+Incomplete: Missing steps, one-word answers, or no evidence of checking work
+Marking time per student: ~1 minute (just check they have answers and conversation file)
+
+1.5 What I’m Looking For
+✅ Good Answer (Step 1): “This program helps restaurant staff calculate tips quickly. They type in the bill amount and what percentage tip they want to add, and the program tells them the tip amount and the new total.”
+
+❌ Lazy Answer: “Calculate tips.”
+
+✅ Good Answer (Step 3 - Tip Calculator): 1. Take $45.80 and multiply by 0.15 to get the tip: $6.87 2. Add $6.87 to $45.80 to get the total: $52.67 3. Tell the staff member: “Tip is $6.87, total charge is $52.67”
+
+❌ Lazy Answer: “Calculate 15% and add it.”
+
+1.6 Why No Code This Week?
+Because I’m testing whether you can THINK about problems, not whether you can get AI to write code for you.
+
+If you can’t do Steps 1-3, then you don’t understand the problem well enough to use AI effectively anyway.
+
+Next week: You’ll take ONE of these problems through to Step 6 with AI help. But only if you prove you understand it first. hi help me explain me what i have to do in this one 
+ChatGPT said:
+
+No worries — this task looks long, but it’s actually simple once you break it down 😊
+
+Here’s exactly what you have to do step by step 👇
+
+🧭 OVERVIEW
+
+This week’s exercise is not about coding.
+You only need to show your thinking process for two small problems — a Tip Calculator and a Late Fee Calculator.
+
+You’ll complete Steps 1, 2, and 3 for both problems (so, six short sections total).
+Everything goes in a Google Colab notebook using Markdown cells (text cells) — NO code at all.
+
+🧩 WHAT TO DO (Step-by-Step)
+🔹 Problem 1: Tip Calculator
+STEP 1: Understand the Problem
+
+Write 2–3 sentences in your own words describing what the program does.
+Example:
+
+This program helps restaurant staff quickly calculate a customer’s tip. They enter the bill amount and the tip percentage, and it tells them how much the tip is and what the total bill will be.
+
+STEP 2: Identify Inputs and Outputs
+
+List:
+
+What information the user provides (inputs)
+
+What the program shows (outputs)
+
+Example:
+
+INPUTS:
+
+Bill amount (a number, e.g., 45.80)
+
+Tip percentage (a number, e.g., 15)
+
+OUTPUTS:
+
+Tip amount (in dollars)
+
+Total bill (bill + tip)
+
+STEP 3: Work It by Hand
+
+Manually calculate the result for the example they gave:
+
+Bill = $45.80
+Tip = 15%
+
+Example answer:
+
+Multiply 45.80 × 0.15 = 6.87 → this is the tip.
+
+Add 45.80 + 6.87 = 52.67 → this is the total.
+
+Tell staff: “Tip is $6.87, total to charge is $52.67.”
+
+🔹 Problem 2: Late Fee Calculator
+STEP 1: Understand the Problem
+
+Write 2–3 sentences about what this program does.
+
+Example:
+
+This program calculates how much a library fine should be when a book is returned late. The librarian enters how many days overdue it is, and the program shows the fine — up to a maximum of $10.
+
+STEP 2: Identify Inputs and Outputs
+
+INPUTS:
+
+Number of days overdue (whole number)
+
+OUTPUTS:
+
+Fine amount in dollars
+
+Or message “Maximum fine reached” if the fine is over $10
+
+STEP 3: Work It by Hand
+
+They give you three cases — you show your manual calculation for each.
+
+Case A: 5 days late
+5 × $0.50 = $2.50 → Fine: $2.50
+
+Case B: 25 days late
+25 × $0.50 = $12.50, but the maximum fine is $10 → Fine: $10.00
+Special note: Fine is capped at $10, even though calculation gives $12.50.
+
+Case C: 0 days late
+Fine: $0.00
+
+📁 WHAT TO SUBMIT
+
+In your Google Colab notebook, write:
+
+# Week 10 - Process Documentation
+
+## Problem 1: Tip Calculator
+### Step 1: Understand the Problem
+[your answer]
+
+### Step 2: Identify Inputs and Outputs
+[your answer]
+
+### Step 3: Work It by Hand
+[your manual steps and result]
+
+## Problem 2: Late Fee Calculator
+### Step 1: Understand the Problem
+[your answer]
+
+### Step 2: Identify Inputs and Outputs
+[your answer]
+
+### Step 3: Work It by Hand
+[your manual steps and 3 cases]
+
+
+Then:
+
+Save the file in Google Colab.
+
+Export your AI conversation as AI_conversation.txt (download it from this chat).
+
+Upload both to your GitHub repo.
+
+Commit with the message:
+“Week 10 - Process documentation”
+
+Would you like me to give you a filled-in example (you can use it as a model for your notebook)?
+
+You said:
+yes
+ChatGPT said:
+
+Perfect 👍 — here’s a complete example you can copy into your Google Colab notebook.
+Just make sure to reword some parts in your own style (your teacher wants to see your thinking, not copy-paste text).
+
+📝 Week 10 - Process Documentation
+💡 Problem 1: Tip Calculator
+Step 1: Understand the Problem
+
+This program helps restaurant staff quickly figure out how much a customer should pay including a tip. The user enters the total bill amount and the tip percentage. The program then calculates the tip value and adds it to the bill to show the total amount to charge.
+
+Step 2: Identify Inputs and Outputs
+
+INPUTS:
+
+Bill amount (number, e.g., 45.80)
+
+Tip percentage (number, e.g., 15)
+
+OUTPUTS:
+
+Tip amount (dollar value, e.g., $6.87)
+
+Total amount including tip (dollar value, e.g., $52.67)
+
+Step 3: Work It by Hand
+
+Example:
+Bill = $45.80
+Tip = 15%
+
+Steps:
+
+Multiply the bill by the tip percentage:
+45.80 × 0.15 = 6.87 → this is the tip amount.
+
+Add the tip to the bill:
+45.80 + 6.87 = 52.67 → this is the total.
+
+What I’d tell the staff:
+“The tip is $6.87 and the total to charge is $52.67.”
+
+📚 Problem 2: Late Fee Calculator
+Step 1: Understand the Problem
+
+This program helps a librarian calculate how much to fine someone for returning a book late. The librarian types in how many days overdue the book is. The program multiplies that by $0.50 per day, but if the fine is more than $10, it stops at $10.
+
+Step 2: Identify Inputs and Outputs
+
+INPUTS:
+
+Number of days overdue (integer, e.g., 5)
+
+OUTPUTS:
+
+Fine amount (in dollars)
+
+OR message: “Maximum fine reached” (if fine exceeds $10)
+
+Step 3: Work It by Hand
+
+Case A: Book is 5 days late
+
+Fine = 5 × $0.50 = $2.50
+
+Fine is under $10 → no cap applied.
+Answer: $2.50
+
+Case B: Book is 25 days late
+
+Fine = 25 × $0.50 = $12.50
+
+Fine is above $10, so cap it at $10.
+Answer: $10.00
+Special note: The fine doesn’t increase after 20 days because the maximum fine limit is reached.
+
+Case C: Book is 0 days late
+
+Fine = 0 × $0.50 = $0.00
+Answer: $0.00
+
+✅ That’s it!
+You now have both problems completed for Steps 1–3 — exactly what’s required this week.
+
+🔧 Final Steps to Submit
+
+Copy all the text above into a Google Colab notebook.
+
+Make sure each Step is in a Markdown cell (text cell, not code cell).
+
+Save your notebook.
+
+Download this chat as AI_conversation.txt.
+
+You can click the three dots (⋯) in ChatGPT → “Export chat.”
+
+Upload both files to your GitHub repo.
+
+Commit with message:
+Week 10 - Process documentation
+
+Would you like me to show you how to format it nicely in Google Colab (with headings and spacing so it looks clean and professional)?
+
+You said:
+yes
+ChatGPT said:
+
+Awesome 👍 Let’s make your Google Colab notebook look neat and professional.
+Here’s exactly how to format it — you can copy and paste this version directly into Colab.
+
+📝 Week 10 – Process Documentation
+💡 Problem 1: Tip Calculator
+🧠 Step 1: Understand the Problem
+
+This program helps restaurant staff quickly figure out how much a customer should pay including a tip.
+The user enters the total bill amount and the tip percentage.
+The program then calculates the tip value and adds it to the bill to show the total amount to charge.
+
+🧩 Step 2: Identify Inputs and Outputs
+
+INPUTS:
+
+Bill amount (number, e.g., 45.80)
+
+Tip percentage (number, e.g., 15)
+
+OUTPUTS:
+
+Tip amount (dollar value, e.g., $6.87)
+
+Total amount including tip (dollar value, e.g., $52.67)
+
+🔢 Step 3: Work It by Hand
+
+Example:
+Bill = $45.80  Tip = 15 %
+
+Steps:
+
+Multiply the bill by the tip percentage:
+  45.80 × 0.15 = 6.87 → tip amount.
+
+Add the tip to the bill:
+  45.80 + 6.87 = 52.67 → total amount.
+
+What I’d tell the staff:
+  “Tip is $6.87 and total to charge is $52.67.”
+
+📚 Problem 2: Late Fee Calculator
+🧠 Step 1: Understand the Problem
+
+This program helps a librarian calculate how much to fine someone for returning a book late.
+The librarian types in how many days overdue the book is.
+The program multiplies that number by $0.50 per day, but stops at $10 if the fine goes higher.
+
+🧩 Step 2: Identify Inputs and Outputs
+
+INPUTS:
+
+Number of days overdue (integer, e.g., 5)
+
+OUTPUTS:
+
+Fine amount (in dollars)
+
+OR message “Maximum fine reached” (if fine > $10)
+
+🔢 Step 3: Work It by Hand
+
+Case A: Book is 5 days late
+
+Fine = 5 × $0.50 = $2.50
+
+Fine is under $10 → no cap applied.
+Answer: $2.50
+
+Case B: Book is 25 days late
+
+Fine = 25 × $0.50 = $12.50
+
+Fine is above $10 → cap it at $10.
+Answer: $10.00
+Special note: Fine does not increase after 20 days because of the maximum limit.
+
+Case C: Book is 0 days late
+
+Fine = 0 × $0.50 = $0.00
+Answer: $0.00
+
+✅ Submission Checklist
+
+ Both problems have Steps 1–3.
+
+ No code included – only explanations and manual calculations.
+
+ Saved Colab notebook to GitHub.
+
+ Exported AI conversation as AI_conversation.txt.
+
+ Commit message: “Week 10 – Process documentation”
+
+🪄 Tip for formatting in Colab
+
+Click “+ Text” to add a Markdown cell.
+
+Paste each section above into its own cell (so it’s cleanly divided).
+
+Use the Heading styles (H1, H2, H3) from the toolbar to make titles stand out.
+
+You can preview Markdown formatting live in Colab.
+
+Would you like me to show you (with a quick screenshot example layout) how your notebook should look once it’s formatted correctly in Colab?
+
+You said:
+what was the first step i have to do in google colab 
+ChatGPT said:
+
+Excellent question — let’s go step by step so you know exactly what to do first in Google Colab 👇
+
+🪜 STEP-BY-STEP: Starting in Google Colab
+🥇 Step 1 — Open a New Notebook
+
+Go to https://colab.research.google.com
+
+Make sure you’re signed in with your Google account.
+
+Click “New Notebook” (bottom-right or under “File → New notebook”).
+
+A blank notebook will open with one empty code cell at the top.
+
+🥈 Step 2 — Rename Your Notebook
+
+At the top-left, click the title (it will say something like Untitled0.ipynb).
+
+Rename it to:
+👉 Week 10 – Process Documentation
+
+🥉 Step 3 — Add a Text (Markdown) Cell
+
+Click the “+ Text” button (above or below the current cell).
+
+This creates a text cell — used for writing explanations, not code.
+
+Delete the first “code cell” (you won’t need any code this week).
+
+Hover over the left side of the code cell → click the trash-can icon.
+
+🧱 Step 4 — Copy in the Template Text
+
+Paste the formatted version I gave you earlier (starting with
+# 📝 Week 10 – Process Documentation) into the text cell.
+You can add extra text cells if you want to separate each section neatly.
+Use:
+
++ Text → for Step 1, Step 2, Step 3 of each problem.
+
+Keep headings and emojis if you like — they make it clear and readable.
+
+🧾 Step 5 — Save Your Notebook
+
+Click File → Save (Colab also autosaves to Google Drive).
+
+To download a copy:
+
+File → Download → Download .ipynb
+(you’ll later upload this to GitHub).
+
+🧰 Step 6 — Export AI Conversation
+
+From this ChatGPT window:
+
+Click the three dots (⋯) → choose “Export chat”
+
+Save it as AI_conversation.txt
+
+🪣 Step 7 — Upload to GitHub
+
+Go to your GitHub repo for your class.
+
+Click “Add file → Upload files.”
+
+Upload:
+
+Week10_Process_Documentation.ipynb
+
+AI_conversation.txt
+
+Add a commit message:
+Week 10 – Process documentation
+
+Click Commit changes.
+
+✅ After this, you’re done!
+You’ve created your Colab notebook, added your reasoning steps, exported your AI chat, and submitted to GitHub — exactly what your teacher asked for.
+
+Would you like me to give you a visual layout guide (like: “first cell should say this, second cell should say that”) so you can see the structure before you start typing in Colab?
+
+You said:
+Awesome 👍 Let’s make your **Google Colab notebook** look neat and professional.
+Here’s exactly how to format it — you can **copy and paste this version directly** into Colab.
+
+---
+
+# 📝 **Week 10 – Process Documentation**
+
+---
+
+## 💡 **Problem 1: Tip Calculator**
+
+### 🧠 **Step 1: Understand the Problem**
+
+This program helps restaurant staff quickly figure out how much a customer should pay including a tip.
+The user enters the total bill amount and the tip percentage.
+The program then calculates the tip value and adds it to the bill to show the total amount to charge.
+
+---
+
+### 🧩 **Step 2: Identify Inputs and Outputs**
+
+**INPUTS:**
+
+* Bill amount *(number, e.g., 45.80)*
+* Tip percentage *(number, e.g., 15)*
+
+**OUTPUTS:**
+
+* Tip amount *(dollar value, e.g., $6.87)*
+* Total amount including tip *(dollar value, e.g., $52.67)*
+
+---
+
+### 🔢 **Step 3: Work It by Hand**
+
+**Example:**
+Bill = $45.80  Tip = 15 %
+
+**Steps:**
+
+1. Multiply the bill by the tip percentage:
+     45.80 × 0.15 = **6.87** → tip amount.
+2. Add the tip to the bill:
+     45.80 + 6.87 = **52.67** → total amount.
+3. What I’d tell the staff:
+     “Tip is **$6.87** and total to charge is **$52.67**.”
+
+---
+
+## 📚 **Problem 2: Late Fee Calculator**
+
+### 🧠 **Step 1: Understand the Problem**
+
+This program helps a librarian calculate how much to fine someone for returning a book late.
+The librarian types in how many days overdue the book is.
+The program multiplies that number by $0.50 per day, but stops at $10 if the fine goes higher.
+
+---
+
+### 🧩 **Step 2: Identify Inputs and Outputs**
+
+**INPUTS:**
+
+* Number of days overdue *(integer, e.g., 5)*
+
+**OUTPUTS:**
+
+* Fine amount (in dollars)
+* OR message “Maximum fine reached” (if fine > $10)
+
+---
+
+### 🔢 **Step 3: Work It by Hand**
+
+**Case A: Book is 5 days late**
+
+1. Fine = 5 × $0.50 = **$2.50**
+2. Fine is under $10 → no cap applied.
+   **Answer:** $2.50
+
+---
+
+**Case B: Book is 25 days late**
+
+1. Fine = 25 × $0.50 = $12.50
+2. Fine is above $10 → cap it at $10.
+   **Answer:** $10.00
+   **Special note:** Fine does not increase after 20 days because of the maximum limit.
+
+---
+
+**Case C: Book is 0 days late**
+
+1. Fine = 0 × $0.50 = $0.00
+   **Answer:** $0.00
+
+---
+
+### ✅ **Submission Checklist**
+
+* [x] Both problems have Steps 1–3.
+* [x] No code included – only explanations and manual calculations.
+* [x] Saved Colab notebook to GitHub.
+* [x] Exported AI conversation as AI_conversation.txt.
+* [x] Commit message: **“Week 10 – Process documentation”**
+
+---
+
+### 🪄 **Tip for formatting in Colab**
+
+* Click **“+ Text”** to add a Markdown cell.
+* Paste each section above into its own cell (so it’s cleanly divided).
+* Use the **Heading styles (H1, H2, H3)** from the toolbar to make titles stand out.
+* You can preview Markdown formatting live in Colab.
+
+---
+
+Would you like me to show you (with a quick screenshot example layout) how your notebook should look once it’s formatted correctly in Colab? give me copy form of this one  
+ChatGPT said:
+
+Absolutely! 👍 Here’s a clean, ready-to-copy version of the Colab text — no extra comments, just the formatted Markdown so you can paste it directly into your Google Colab text cells.
+
+# 📝 **Week 10 – Process Documentation**
+
+---
+
+## 💡 **Problem 1: Tip Calculator**
+
+### 🧠 **Step 1: Understand the Problem**
+
+This program helps restaurant staff quickly figure out how much a customer should pay including a tip.  
+The user enters the total bill amount and the tip percentage.  
+The program then calculates the tip value and adds it to the bill to show the total amount to charge.
+
+---
+
+### 🧩 **Step 2: Identify Inputs and Outputs**
+
+**INPUTS:**
+- Bill amount *(number, e.g., 45.80)*  
+- Tip percentage *(number, e.g., 15)*  
+
+**OUTPUTS:**
+- Tip amount *(dollar value, e.g., $6.87)*  
+- Total amount including tip *(dollar value, e.g., $52.67)*  
+
+---
+
+### 🔢 **Step 3: Work It by Hand**
+
+**Example:**  
+Bill = $45.80  Tip = 15 %
+
+**Steps:**
+1. Multiply the bill by the tip percentage:  
+  45.80 × 0.15 = **6.87** → tip amount.  
+2. Add the tip to the bill:  
+  45.80 + 6.87 = **52.67** → total amount.  
+3. What I’d tell the staff:  
+  “Tip is **$6.87** and total to charge is **$52.67**.”  
+
+---
+
+## 📚 **Problem 2: Late Fee Calculator**
+
+### 🧠 **Step 1: Understand the Problem**
+
+This program helps a librarian calculate how much to fine someone for returning a book late.  
+The librarian types in how many days overdue the book is.  
+The program multiplies that number by $0.50 per day, but stops at $10 if the fine goes higher.
+
+---
+
+### 🧩 **Step 2: Identify Inputs and Outputs**
+
+**INPUTS:**
+- Number of days overdue *(integer, e.g., 5)*  
+
+**OUTPUTS:**
+- Fine amount (in dollars)  
+- OR message “Maximum fine reached” (if fine > $10)  
+
+---
+
+### 🔢 **Step 3: Work It by Hand**
+
+**Case A: Book is 5 days late**  
+1. Fine = 5 × $0.50 = **$2.50**  
+2. Fine is under $10 → no cap applied.  
+**Answer:** $2.50  
+
+---
+
+**Case B: Book is 25 days late**  
+1. Fine = 25 × $0.50 = $12.50  
+2. Fine is above $10 → cap it at $10.  
+**Answer:** $10.00  
+**Special note:** Fine does not increase after 20 days because of the maximum limit.  
+
+---
+
+**Case C: Book is 0 days late**  
+1. Fine = 0 × $0.50 = $0.00  
+**Answer:** $0.00  
+
+---
+
+### ✅ **Submission Checklist**
+
+- [x] Both problems have Steps 1–3.  
+- [x] No code included – only explanations and manual calculations.  
+- [x] Saved Colab notebook to GitHub.  
+- [x] Exported AI conversation as `AI_conversation.txt`.  
+- [x] Commit message: **“Week 10 – Process documentation”**
+
+---
+
+### 🪄 **Tip for formatting in Colab**
+
+- Click **“+ Text”** to add a Markdown cell.  
+- Paste each section above into its own cell (so it’s cleanly divided).  
+- Use the **Heading styles (H1, H2, H3)** from the toolbar to make titles stand out.  
+- You can preview Markdown formatting live in Colab.
+
+
+✅ How to use it:
+
+In your Colab notebook, click “+ Text”.
+
+Paste this entire block.
+
+Click Run (or press Shift + Enter) to see it formatted beautifully.
+
+Would you like me to show you how to split it into multiple text cells (for example: one cell for Problem 1, one for Problem 2) so it’s easier to edit later?
+
+You said:
+does i need to give any code in it
+ChatGPT said:
+
+Excellent question — and the answer is ❌ NO — absolutely no code this week! 🙅‍♂️
+
+Here’s the key point your teacher made:
+
+“This week is about proving you can THINK about a problem before jumping to AI or code.”
+
+✅ What You DO Include
+
+Only Steps 1, 2, and 3 for each problem — written in plain English.
+So just:
+
+Short explanations (2–3 sentences)
+
+Lists of inputs and outputs
+
+Manual calculations (you can use numbers and symbols like ×, +, etc.)
+
+Everything goes inside text (Markdown) cells — not code cells.
+
+🚫 What You DO NOT Include
+
+No Python code
+
+No print() statements
+
+No calculations done by code
+
+No formulas written like code (tip = bill * 0.15)
+
+💡 Why?
+
+Your instructor is testing:
+
+Can you explain the logic clearly?
+
+Do you understand inputs, outputs, and manual steps?
+
+Can you reason about the problem without using code or AI?
+
+Next week, you’ll actually write the code — but only after you’ve shown that you understand the process.
+
+So for now, keep your Google Colab notebook 100% text ✅
+If you see a grey “code box” appear — delete it.
+Use only the “+ Text” button.
+
+Would you like me to show you exactly what your finished Colab page should look like (layout example, with one text cell per section)?
+
+ChatGPT can make mistakes. Check important info.
